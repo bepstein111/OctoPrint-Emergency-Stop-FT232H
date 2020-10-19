@@ -1,0 +1,19 @@
+<h3>{{ _("Emergency Stop - FT232H") }}</h3>
+<form class="form-horizontal">
+    <div class="control-group">
+        <label class="control-label">{{ _('Emergency GCODE:') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level"
+                   data-bind="value: settings.plugins.Emergency-Stop-FT232H.emergencyGCODE">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Button Pin:') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level"
+                   data-bind="value: settings.plugins.Emergency-Stop-FT232H.stop_button">
+        </div>
+    </div>    
+
+
+</form>

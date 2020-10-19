@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_Emergency-Stop-FT232H/templates *
+recursive-include octoprint_Emergency-Stop-FT232H/translations *
+recursive-include octoprint_Emergency-Stop-FT232H/static *
